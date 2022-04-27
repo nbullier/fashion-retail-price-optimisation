@@ -29,20 +29,9 @@ This repo contains the S2DS implementation of fashion retail price optimisation 
 - 1.6-aa-random_forest.ipynb Notebook contains an initial exploration of the use of random forests to predict demand. Final selection of the best random forest model is carried out in ‘2.0_et_optimised_random_forest.ipynb’.
 - 1.6-nb-optimisation-lp-mip.ipynb * LP/MIP solver using the methodology described in **Analytics for an Online Retailer: Demand
 Forecasting and Price Optimization** [link to the paper](https://pubsonline.informs.org/doi/10.1287/msom.2015.0561)
--1.7_et_randomsearchCV_v_rf_comparison.ipynb Notebook contains workup of splitting training data for cross validation and comparison of random forest manually optimised verses hyperparameter tuned.
+- 1.7_et_randomsearchCV_v_rf_comparison.ipynb Notebook contains workup of splitting training data for cross validation and comparison of random forest manually optimised verses hyperparameter tuned.
 - 1.7-aa-predict_demand_optimise_price.ipynb * Notebook brings together the POC model, including the demand prediction and price optimisation step. Currently, the step that builds the demand matrix is slow and therefore we do not recommend searching a price space that is too large. 
 - 2.0_et_optimised_random_forest.ipynb * Notebook contains steps getting to final optimised random forest model for demand prediction.
-
-## bayesian_optimization example folder
-
-- ppymc3 price optimization.ipynb Notebook is descriptive example of utilizing pymc3 package for bayesian price optimization. More details are given directly inside the notebook as a markdown.
-
-## optimisation_test folder
-- 1.0-nb-optimisation-linprog.ipynb Toy model implementation of LP solver with scipy.optimize.linprog
-- 1.1-nb-optimisation-ortools.ipynb Toy model implementation of LP and MIP solvers with OR-Tools. GLOP: LP solver, SCIP MIP solver
-- 1.2-nb-optimisation-ortools-timer.ipynb Toy model implementation of LP solver with OR-Tools (GLOP) and with timer.
-- 1.3-nb-optimisation-mip.ipynb Toy model implementation of MIP solver with Python-MIP package, with timer.
-- 1.4-nb-optimisation-mip.ipynb Toy model implementation of MIP solver with Python-MIP package, with timer.
 
 
 
