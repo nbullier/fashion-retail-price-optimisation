@@ -20,8 +20,7 @@ This repo contains the S2DS implementation of fashion retail price optimisation 
 # Notebook descriptions
 
 - 1.0-data_cleaning_selection.ipynb * Notebook contains code for preparing and cleaning data for next steps.
-- 1.2_et_feature_engineering_eda.ipynb  Notebook contains workup of Kaggle dataset to extract star distribution of knitwear
-- 1.3-aa-data_synthesis_manual.ipynb * Notebook contains steps for resampling original data and visualisation of resampled data.
+- 1.1-data_synthesis_manual.ipynb * Notebook contains steps for resampling original data and visualisation of resampled data.
 - 1.4-aa-append_synth_engin_cols.ipynb * Notebook contains steps for data preparation, including aggregating data by week, generating engineered columns,              appending synthetic star rating and sentiment columns, and adding google trend data for items in the subdepartment of interest and the colour of items considered.
 - 1.5-aa_decision_tree.ipynb Notebook contains an initial exploration of the use of decision trees to predict demand.
 - 1.6_et_linear_regression.ipynb Notebook contains use of and assessment of linear regression models for demand prediction
