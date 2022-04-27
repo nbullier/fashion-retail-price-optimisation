@@ -1,6 +1,6 @@
 # Price optimisation model
 
-This repo contains the S2DS implementation of fashion retail price optimisation model.
+This repo contains an implementation of a fashion retail price optimisation model realised during S2DS.
 
 # Directory structure: 
 
