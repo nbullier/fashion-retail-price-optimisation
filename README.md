@@ -5,13 +5,8 @@ This repo contains the S2DS implementation of fashion retail price optimisation 
 # Directory structure: 
 
 ```
-├── data
-│   ├── interim        <- Intermediate data that has been transformed.
-│   └── raw            <- The original data.
-│
+
 ├── notebooks          <- Jupyter notebooks of various models.
-│
-├── references         <- Paper references on price optimisation.
 │
 ├── src                <- Complete model pipeline for this project.
 
