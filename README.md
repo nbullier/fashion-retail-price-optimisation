@@ -39,9 +39,3 @@ Forecasting and Price Optimization** [link to the paper](https://pubsonline.info
 The star * indicates which notebooks are directly used in the final pipeline file in the src folder: price_optim.py
 
 
-------------------------------------------------------------------------------------------------------------------------------
-
-### Installing development requirements
-------------
-
-    pip install -r requirements.txt
